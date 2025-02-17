@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 
 export default function CallToAction() {
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-12 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-3xl p-8 md:p-12 lg:p-16 shadow-sm">
+        <div className="bg-white rounded-3xl p-6 md:p-8 lg:p-12 shadow-sm">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Content */}
-            <div className="space-y-6">
+            <div className="space-y-6 text-center md:text-left">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
                 Learn faster, smarter, better with Briefli Ai
               </h2>
@@ -17,10 +17,12 @@ export default function CallToAction() {
                 Briefli works alongside writers, students, teams, and
                 researchers everywhere.
               </p>
-              <Button className="group" size="lg">
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
+              <div className="flex justify-center md:justify-start">
+                <Button className="group" size="lg">
+                  Get Started
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </div>
             </div>
 
             {/* Globe Image */}

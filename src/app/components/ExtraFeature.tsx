@@ -65,7 +65,7 @@ const features = [
 
 export default function ExtraFeature() {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-start px-4 bg-gray-50">
+    <div className="py-12 px-4 bg-gray-50">
       {/* Background gradient */}
       <div
         className="absolute inset-0 -z-10"
@@ -76,7 +76,7 @@ export default function ExtraFeature() {
       />
 
       {/* Main heading */}
-      <h2 className="text-4xl md:text-5xl font-bold mb-4 mt-20">
+      <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
         Understand and learn at ease
       </h2>
 
@@ -85,10 +85,8 @@ export default function ExtraFeature() {
         From asking questions to simplifying topics, we have you covered.
       </p>
 
-     
-
       {/* App Screenshot */}
-      <div className="mt-16 w-full max-w-5xl mx-auto px-4">
+      <div className="mt-12 w-full max-w-5xl mx-auto">
         <div className="relative rounded-lg overflow-hidden shadow-2xl">
           <Image
             src={`/features.avif`}

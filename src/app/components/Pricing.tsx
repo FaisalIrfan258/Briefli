@@ -41,7 +41,7 @@ export default function Pricing() {
   const [isAnnual, setIsAnnual] = useState(false)
 
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-12 px-4 bg-gray-50">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">Simple pricing plans</h2>
         <p className="text-gray-600 text-lg">Enjoy the power of the best AI models on a single platform</p>

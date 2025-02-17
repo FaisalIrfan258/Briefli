@@ -81,7 +81,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export default function Testimonials() {
   return (
-    <section className="py-20 px-4 pt-32 bg-gray-50">
+    <section className="py-12 px-4 bg-gray-50">
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">People really love using Briefli</h2>
         <p className="text-gray-600 text-lg">Supporting over 10,000+ researchers</p>

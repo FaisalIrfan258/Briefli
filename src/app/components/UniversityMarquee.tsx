@@ -29,7 +29,7 @@ const universities = [
 
 export default function UniversityMarquee() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="pt-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-xl text-gray-600 mb-8">
           Trusted by top universities in the world
